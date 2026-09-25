@@ -1,0 +1,20 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# STM32CubeIDE generated output
+Debug/
+Release/
+.settings/
+.metadata/
+
+# Local IDE files
+.vscode/
+*.launch
+
+# Generated logs and plots
+*.log
+*.csv
