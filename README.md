@@ -10,6 +10,10 @@ This project implements sliding-mode control (SMC) and adaptive SMC on an STM32F
 
 The repository also contains Python tools for generating the reference input and plotting measurements in real time.
 
+![Ball-and-beam hardware setup](ball_and_beam_setup.jpg)
+
+*The physical ball-and-beam prototype: the beam is tilted by a servo-driven actuator while the VL53L0X sensor (mounted at the far end of the beam) measures the ball position, with the STM32F446RE board and motor driver visible in the foreground.*
+
 ## Main components
 
 - STM32F446RE firmware generated and configured with STM32CubeIDE/CubeMX
